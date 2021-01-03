@@ -2,39 +2,41 @@
 
 ## Lesson Task 4 Questions
 
-### Question
+### Question 1
 
 Declare and call a function that logs the string "What the func is this nonsense?"
 
-### Question
-
-Declare and call a function that `alerts` the string "Threat Level Midnight"
-
-### Question
+### Question 2
 
 Create and call a function with two arguments, `firstName` and `lastName`.
 
 The function should log both the argument values with a space between them.
 
-### Question
+### Question 3
 
 Create a function with two arguments, `firstNumber` and `secondNumber`.
 
-Inside the function multiply the arguments and return the result.
+Inside the function, check the type of the arguments.
+
+If they are numbers, multiply them and return the result.
+
+If either of them are not numbers return the message: "Please supply number values".
 
 Call the function, assign the return value to a variable called `result` and log the variable.
 
-### Question
+### Question 4
 
-Create a function with one argument.
+Create a function with three arguments.
 
-Inside the function check the type of the value being passed in.
+Try and convert each argument to a number.
 
-If it is a boolean value, log the value.
+If any of the arguments cannot be converted to a number, return the message: "Invalid argument types".
 
-If it is not a boolean value, log the message "Please pass a boolean value in".
+If all arguments are numbers or can be converted to numbers, add them all and return the result.
 
-### Question
+Select the `p` element on the page and assign the result of the function call to be its innerHTML value.
+
+### Question 5
 
 Select the button with the class `heading` using `document.querySelector`.
 
@@ -42,17 +44,19 @@ Create a function and assign it to the `onclick` property of the button.
 
 The function should select the `h1` element on the page and update its innerHTML without replacing the existing value.
 
-Its final innerHTML value should be `Functions: Updated by click`.
+After clicking once, the innerHTML value should be `Functions: Updated`.
 
-### Question
+Clicking the button again would mean the heading reads: `Functions: Updated: Updated`
+
+### Question 6
 
 Select the button with the class `title`.
 
-When this is button is clicked, update the `title` of the `page` (not the heading, the HTML page title) to read: `I've been updated`.
+When this is button is clicked, update the `title` of the `page` (not the heading, the HTML page title visible in the browser tab) to read: `I've been updated`.
 
 Hint: use `console.dir(document)` to view the properties available on the document object.
 
-### Question
+### Question 7
 
 Select the buttons with the classes `red`, `orange` and `pink`.
 
